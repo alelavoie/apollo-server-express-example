@@ -1,0 +1,22 @@
+{
+  "name": "forum-prototype",
+  "version": "1.0.0",
+  "description": "Forum prototype",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server-express": "^2.7.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "graphql": "^14.4.2",
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Alexandre Lavoie",
+  "license": "ISC"
+}

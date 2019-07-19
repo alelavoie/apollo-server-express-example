@@ -1,0 +1,67 @@
+{
+  "users": {
+    "1": {
+      "id": 1,
+      "name": "Alexandre Lavoie",
+      "picture": "https://picsum.photos/200",
+      "forumIds": [1, 2]
+    },
+    "2": {
+      "id": 2,
+      "name": "Antoine Carbonneau Lavoie",
+      "picture": "https://picsum.photos/200",
+      "forumIds": [1]
+    }
+  },
+
+  "forums": {
+    "1": {
+      "id": 1,
+      "name": "Forum 1",
+      "userIds": []
+    },
+    "2": {
+      "id": 2,
+      "name": "Forum 2",
+      "userIds": []
+    }
+  },
+
+  "messages": {
+    "1": {
+      "id": 1,
+      "authorId": 1,
+      "forumId": 1,
+      "text": "Message 1",
+      "sendingTime": "2019-07-18T12:30:00.419Z"
+    },
+    "2": {
+      "id": 2,
+      "authorId": 1,
+      "forumId": 1,
+      "text": "Message 2",
+      "sendingTime": "2019-07-18T12:29:00.419Z"
+    },
+    "3": {
+      "id": 3,
+      "authorId": 1,
+      "forumId": 2,
+      "text": "Message 3",
+      "sendingTime": "2019-07-18T12:31:00.419Z"
+    },
+    "4": {
+      "id": 4,
+      "authorId": 2,
+      "forumId": 2,
+      "text": "Message 4",
+      "sendingTime": "2019-07-18T12:33:00.419Z"
+    },
+    "5": {
+      "id": 5,
+      "authorId": 2,
+      "forumId": 1,
+      "text": "Message 5",
+      "sendingTime": "2019-07-18T12:37:00.419Z"
+    }
+  }
+}
