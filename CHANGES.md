@@ -1,3 +1,4 @@
+  Sample Graphql schema showing what changes would need to be made to add new key functionalities
   ```
  type Query {
     users: [User!]
