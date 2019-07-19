@@ -15,7 +15,8 @@
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node -r esm src/index.js"
   },
   "author": "Alexandre Lavoie",
   "license": "ISC"
