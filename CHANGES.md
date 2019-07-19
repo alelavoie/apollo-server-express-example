@@ -4,8 +4,7 @@
     user(id: ID!): User
     currentUser: User!
     forums: [Forum!]
-    forum(id: ID!): Forum
-    askRequests: [AskRequest!]
+    forum(id: ID!): Forum    
   }
 
   type Mutation {
@@ -22,6 +21,7 @@
     name: String!
     picture: String
     forums: [Forum!]
+    askRequests: [AskRequest!]
   }
 
   type Forum {
@@ -39,7 +39,7 @@
     author: User!
     sendingTime: String!
   }
-  
+
   type AskRequest {
     id: ID!
     forum: Forum!
