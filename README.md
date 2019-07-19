@@ -1,4 +1,4 @@
-###Built with node.js v10.16.0
+### Built with node.js v10.16.0
 
 Graphql schema of the actual app
  ```
