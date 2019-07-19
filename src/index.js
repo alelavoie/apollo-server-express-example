@@ -1,7 +1,7 @@
 import express from "express";
 import { ApolloServer} from "apollo-server-express";
-import typeDefs from "./gpl_typedefs.js";
-import resolvers from "./gpl_resolvers.js";
+import typeDefs from "./gql_typedefs.js";
+import resolvers from "./gql_resolvers.js";
 import { loadFixtures } from "./utils";
 
 global.fakeDatabase = loadFixtures();
