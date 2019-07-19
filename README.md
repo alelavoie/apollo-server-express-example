@@ -1,4 +1,5 @@
  
+Graphql schema of the actual app
  ```
  type Query {
     users: [User!]
