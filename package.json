@@ -15,7 +15,7 @@
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --timeout 999999",
     "start": "node -r esm src/index.js"
   },
   "author": "Alexandre Lavoie",
