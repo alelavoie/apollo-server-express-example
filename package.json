@@ -4,7 +4,7 @@
   "description": "Forum prototype",
   "main": "server.js",
   "dependencies": {
-    "apollo-server-express": "^2.7.0",
+    "apollo-server-express": "^2.14.2",
     "esm": "^3.2.25",
     "express": "^4.17.1"
   },
